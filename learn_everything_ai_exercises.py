@@ -1,3 +1,5 @@
+from learn_everything_ai_functions import separated_numbers
+
 # x = float(input())
 # y = (x**2) - 1
 #
@@ -47,3 +49,8 @@
 #
 # for number in range(start_number, end_number, increment_number):
 #     print(f'Number: {number} Square: {number**2} Cube: {number**3}')
+
+
+numbers = input('Enter the parameters separeted by commas: ')
+sep_nums = separated_numbers(numbers)
+print(f'The parameters are: {sep_nums}')

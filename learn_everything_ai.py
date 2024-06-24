@@ -1,3 +1,5 @@
+import random
+
 from learn_everything_ai_functions import poly
 
 a = 2
@@ -147,4 +149,19 @@ for number in range(10):
 #     print(f'The value of the polynomial is: {y_value}')
 #     x_value = input('Enter a value for x: ')
 
+# a = float(input('Enter a number: '))
+# b = float(input('Enter another number: '))
+# try:
+#     print(a/b)
+# except ZeroDivisionError:
+#     print('The second number must not be zero')
 
+
+f = open('temp.txt', 'a')
+number = random.random()
+f.write(f'{number}\n')
+print(number)
+number = random.uniform(1, 1000000)
+print(number)
+f.write(f'{number}\n')
+f.close()
