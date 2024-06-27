@@ -176,5 +176,16 @@ print("+" + 10 * "-" + "+")
 # div_result = first_number / second_number
 # print(f"{sum_result}\n{sub_result}\n{mul_result}\n{div_result}\nThat's all, folks")
 
-y = 1 // 2 * 3
-print(y)
+var = 0  # Assigning 0 to var
+print(var == 0)
+var = 1  # Assigning 1 to var
+print(var == 0)
+
+var = 0  # Assigning 0 to var
+print(var != 0)
+var = 1  # Assigning 1 to var
+print(var != 0)
+
+n = float(input('Enter the number: '))
+less_then = n > 100
+print(less_then)
