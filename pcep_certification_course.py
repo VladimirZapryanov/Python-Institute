@@ -186,6 +186,83 @@ print(var != 0)
 var = 1  # Assigning 1 to var
 print(var != 0)
 
-n = float(input('Enter the number: '))
-less_then = n > 100
-print(less_then)
+# n = float(input('Enter the number: '))
+# less_then = n > 100
+# print(less_then)
+
+## Read two numbers
+# number1 = int(input("Enter the first number: "))
+# number2 = int(input("Enter the second number: "))
+#
+# # Choose the larger number
+# if number1 > number2:
+#     larger_number = number1
+# else:
+#     larger_number = number2
+#
+# # Print the result
+# print("The larger number is:", larger_number)
+
+# # Read two numbers
+# number1 = int(input("Enter the first number: "))
+# number2 = int(input("Enter the second number: "))
+#
+# # Choose the larger number
+# if number1 > number2: larger_number = number1
+# else: larger_number = number2
+#
+# # Print the result
+# print("The larger number is:", larger_number)
+
+# # Read three numbers
+# number1 = int(input("Enter the first number: "))
+# number2 = int(input("Enter the second number: "))
+# number3 = int(input("Enter the third number: "))
+#
+# # We temporarily assume that the first number
+# # is the largest one.
+# # We will verify this soon.
+# largest_number = number1
+#
+# # We check if the second number is larger than current largest_number
+# # and update largest_number if needed.
+# if number2 > largest_number:
+#     largest_number = number2
+#
+# # We check if the third number is larger than current largest_number
+# # and update largest_number if needed.
+# if number3 > largest_number:
+#     largest_number = number3
+#
+# # Print the result
+# print("The largest number is:", largest_number)
+
+# plant_name = input('Enter plant name: ')
+# if plant_name == 'Spathiphyllum':
+#     print('Yes - Spathiphyllum is the best plant ever!')
+# elif plant_name == 'spathiphyllum':
+#     print('No, I want a big Spathiphyllum!')
+# else:
+#     print(f'Spathiphyllum! Not {plant_name}!')
+
+# income = float(input("Enter the annual income: "))
+# tax = 0
+# if income <= 85528.0:
+#     tax = income * 0.18 - 556.2
+# elif income > 85528.0:
+#     tax = 14839.2 + (income - 85528) * 0.32
+# if tax < 0:
+#     tax = 0
+# tax = round(tax, 0)
+# print("The tax is:", tax, "thalers")
+
+# year = int(input("Enter a year: "))
+# year_is = ''
+# if year < 1582:
+#     year_is = 'Not within the Gregorian calendar period'
+# elif year % 4 != 0 and year % 400:
+#     year_is = 'Common year'
+# else:
+#     year_is = 'Leap year'
+# print(year_is)
+
