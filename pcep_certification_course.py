@@ -476,3 +476,211 @@ from time import sleep
 #     if digit == "0":
 #         digit = 'x'
 #     print(digit, end='')
+
+# var = 17
+# var_right = var >> 1
+# var_left = var << 2
+# print(var, var_left, var_right)
+#
+# x = 4
+# y = 1
+#
+# a = x & y
+# b = x | y
+# c = ~x  # tricky!
+# d = x ^ 5
+# e = x >> 2
+# f = x << 2
+#
+# print(a, b, c, d, e, f)
+
+# numbers = [10, 5, 7, 2, 1]
+# print(f'Original list content: {numbers}')
+# numbers[0] = 100
+# print(f'New list content: {numbers}')
+# numbers[0] = numbers[4]
+# print(f'New list content 2: {numbers}')
+# print(f'Show second element of list: {numbers[1]}')
+# print(len(numbers))
+# del numbers[1]
+# print(numbers)
+# print(f'Last element of list: {numbers[-1]}')
+
+# hat_list = [1, 2, 3, 4, 5]
+# user_number = int(input('Enter number: '))
+# hat_list[2] = user_number
+# del(hat_list[-1])
+# print((len(hat_list)))
+# print(hat_list)
+
+# numbers = [111, 7, 2, 1]
+# print(len(numbers))
+# print(numbers)
+# numbers.append(4)
+# print(len(numbers))
+# print(numbers)
+# numbers.insert(0, 222)
+# print(len(numbers))
+# print(numbers)
+# numbers.insert(1, 333)
+# print(len(numbers))
+# print(numbers)
+
+# my_list = []
+# for i in range(5):
+#     my_list.append(i + 1)
+# print(my_list)
+#
+# my_list = []
+# for i in range(5):
+#     my_list.insert(0, i + 1)
+# print(my_list)
+
+# my_list = [10, 1, 8, 3, 5]
+# total = 0
+# for i in range(len(my_list)):
+#     total += my_list[i]
+# print(total)
+#
+# my_list = [10, 1, 8, 3, 5]
+# total = 0
+# for i in my_list:
+#     total += i
+# print(total)
+#
+# my_list = [10, 1, 8, 3, 5]
+# print(sum(my_list))
+
+# variable_1 = 1
+# variable_2 = 2
+# print(variable_1, variable_2)
+# variable_1, variable_2 = variable_2, variable_1
+# print(variable_1, variable_2)
+
+# my_list = [10, 1, 8, 3, 5]
+# my_list[0], my_list[4] = my_list[4], my_list[0]
+# my_list[1], my_list[3] = my_list[3], my_list[1]
+# print(my_list)
+
+# my_list = [10, 1, 8, 3, 5, 9, 10, 22, 33, 44]
+# length = len(my_list)
+# for i in range(length // 2):
+#     my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
+# print(my_list)
+
+# beatles = []
+# print("Step 1:", beatles)
+# beatles.append('John Lennon')
+# beatles.append('Paul McCartney')
+# beatles.append('George Harrison')
+# print("Step 2:", beatles)
+# for n in range(2):
+#     user_add = input('Add members of the band:')
+#     beatles.append(user_add)
+# print("Step 3:", beatles)
+# del(beatles[-1])
+# del(beatles[-1])
+# print("Step 4:", beatles)
+# beatles.insert(0, 'Ringo Starr')
+# print("Step 5:", beatles)
+# print("The Fab", len(beatles))
+
+# my_list = [8, 10, 6, 2, 4]
+# swapped = True
+# while swapped:
+#     swapped = False
+#     for i in range(len(my_list) - 1):
+#         if my_list[i] > my_list[i + 1]:
+#             swapped = True
+#             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+# print(my_list)
+#
+# my_list = [8, 10, 6, 2, 4]
+# my_list.sort()
+# print(my_list)
+
+# lst = [5, 3, 1, 2, 4]
+# print(lst)
+# lst.sort()
+# print(lst)  # outputs: [1, 2, 3, 4, 5]
+
+# lst = [5, 3, 1, 2, 4]
+# print(lst)
+# lst.reverse()
+# print(lst)  # outputs: [4, 2, 1, 3, 5]
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:3]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[1:-1]
+# print(new_list)
+#
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[-1:1]
+# print(new_list)
+#
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[:3]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[3:]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# new_list = my_list[:]
+# print(new_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# del my_list[1:3]
+# print(my_list)
+
+# my_list = [10, 8, 6, 4, 2]
+# del my_list[:]
+# print(my_list)
+
+# my_list = [0, 3, 12, 8, 2]
+# print(5 in my_list)
+# print(5 not in my_list)
+# print(12 in my_list)
+
+# my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+# largest = my_list[0]
+# for i in my_list:
+#     if i > largest:
+#         largest = i
+# print(largest)
+
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# to_find = 5
+# found = False
+# for i in range(len(my_list)):
+#     found = my_list[i] == to_find
+#     if found:
+#         break
+# if found:
+#     print("Element found at index", i)
+# else:
+#     print("absent")
+
+# drawn = [5, 11, 9, 42, 3, 49]
+# bets = [3, 7, 11, 42, 34, 49]
+# hits = 0
+# for number in bets:
+#     if number in drawn:
+#         hits += 1
+# print(hits)
+
+# my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# unique_list = []
+# for n in my_list:
+#     if n not in unique_list:
+#         unique_list.append(n)
+# print("The list with unique elements only:")
+# print(unique_list)
+
+# my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+# print("The list with unique elements only:")
+# print(list(set(my_list)))
