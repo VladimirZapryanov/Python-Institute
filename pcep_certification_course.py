@@ -684,3 +684,136 @@ from time import sleep
 # my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
 # print("The list with unique elements only:")
 # print(list(set(my_list)))
+
+# days = ['Sun', 'Mon', 'Tus', 'Wed']
+# print(days[-3:-1])
+
+# vehicles_one = ['car', 'bicycle', 'motor']
+# print(vehicles_one) # outputs: ['car', 'bicycle', 'motor']
+# vehicles_two = vehicles_one
+# del vehicles_one[0] # deletes 'car'
+# print(vehicles_two) # outputs: ['bicycle', 'motor']
+
+# colors = ['red', 'green', 'orange']
+# copy_whole_colors = colors[:]  # copy the entire list
+# copy_part_colors = colors[0:2]  # copy part of the list
+
+# sample_list = ["A", "B", "C", "D", "E"]
+# new_list = sample_list[2:-1]
+# print(new_list)  # outputs: ['C', 'D']
+
+# my_list = [1, 2, 3, 4, 5]
+# slice_one = my_list[2: ]
+# slice_two = my_list[ :2]
+# slice_three = my_list[-2: ]
+# print(slice_one)  # outputs: [3, 4, 5]
+# print(slice_two)  # outputs: [1, 2]
+# print(slice_three)  # outputs: [4, 5]
+
+# my_list = [1, 2, 3, 4, 5]
+# del my_list[0:2]
+# print(my_list)  # outputs: [3, 4, 5]
+# del my_list[:]
+# print(my_list)  # deletes the list content, outputs: []
+
+# my_list = ["A", "B", 1, 2]
+# print("A" in my_list)  # outputs: True
+# print("C" not in my_list)  # outputs: True
+# print(2 not in my_list)  # outputs: False
+
+# squares = [x ** 2 for x in range(10)]
+# print(squares)
+# twos = [2 ** i for i in range(8)]
+# print(twos)
+# odds = [x for x in squares if x % 2 != 0 ]
+# print(odds)
+
+# EMPTY = "-"
+# ROOK = "ROOK"
+# KNIGHT = 'KNIGHT'
+# PAWN = 'PAWN'
+# board = []
+# for i in range(8):
+#     row = [EMPTY for i in range(8)]
+#     board.append(row)
+# board[0][0] = ROOK
+# board[0][7] = ROOK
+# board[7][0] = ROOK
+# board[7][7] = ROOK
+# board[4][2] = KNIGHT
+# board[3][4] = PAWN
+# print(board)
+
+# EMPTY = "-"
+# ROOK = "ROOK"
+# POW = 'POW'
+# board = []
+# for i in range(8):
+#     if i == 1 or i == 6:
+#         row = [POW for i in range(8)]
+#         board.append(row)
+#     else:
+#         row = [EMPTY for i in range(8)]
+#         board.append(row)
+# board[0][0] = ROOK
+# board[0][7] = ROOK
+# board[7][0] = ROOK
+# board[7][7] = ROOK
+# print(board)
+
+# temps = [[(0.0 + h) for h in range(24)] for d in range(31)]
+# print(temps)
+# total = 0.0
+# for day in temps:
+#     total += day[11]
+# average = total / 31
+# print("Average temperature at noon:", average)
+# highest = -100.0
+# for day in temps:
+#     for temp in day:
+#         if temp > highest:
+#             highest = temp
+# print("The highest temperature was:", highest)
+# hot_days = 0
+# for day in temps:
+#     if day[11] > 20.0:
+#         hot_days += 1
+# print(hot_days, "days were hot.")
+
+# rooms = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
+# print(rooms)
+# rooms[1][9][13] = True
+# rooms[0][4][1] = False
+# vacancy = 0
+# for room_number in range(20):
+#     if not rooms[1][9][room_number]:
+#         vacancy += 1
+# print(vacancy)
+
+# cubed = [num ** 3 for num in range(5)]
+# print(cubed)
+
+# table = [[":(", ":)", ":(", ":)"],
+#          [":)", ":(", ":)", ":)"],
+#          [":(", ":)", ":)", ":("],
+#          [":)", ":)", ":)", ":("]]
+# print(table)
+# print(table[0][0])
+# print(table[0][3])
+
+# cube = [[[':(', 'x', 'x'],
+#          [':)', 'x', 'x'],
+#          [':(', 'x', 'x']],
+#
+#         [[':)', 'x', 'x'],
+#          [':(', 'x', 'x'],
+#          [':)', 'x', 'x']],
+#
+#         [[':(', 'x', 'x'],
+#          [':)', 'x', 'x'],
+#          [':)', 'x', 'x']]]
+#
+# print(cube)
+# print(cube[0][0][0])  # outputs: ':('
+# print(cube[2][2][0])  # outputs: ':)'
+
