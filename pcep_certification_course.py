@@ -804,16 +804,114 @@ from time import sleep
 # cube = [[[':(', 'x', 'x'],
 #          [':)', 'x', 'x'],
 #          [':(', 'x', 'x']],
-#
 #         [[':)', 'x', 'x'],
 #          [':(', 'x', 'x'],
 #          [':)', 'x', 'x']],
-#
 #         [[':(', 'x', 'x'],
 #          [':)', 'x', 'x'],
 #          [':)', 'x', 'x']]]
-#
 # print(cube)
 # print(cube[0][0][0])  # outputs: ':('
 # print(cube[2][2][0])  # outputs: ':)'
 
+# def message():
+#     print("Enter a value: ")
+# print("We start here.")
+# message()
+# print("We end here.")
+
+# def message(what, number):
+#     print("Enter", what, "number", number)
+# message("telephone", 11)
+# message("price", 5)
+# message("number", "number")
+
+# def my_function(a, b, c):
+#     print(a, b, c)
+# my_function(1, 2, 3)
+
+# def introduction(first_name, last_name):
+#     print("Hello, my name is", first_name, last_name)
+# introduction("Luke", "Skywalker")
+# introduction("Jesse", "Quick")
+# introduction("Clark", "Kent")
+#
+# def introduction(first_name, last_name):
+#     print("Hello, my name is", first_name, last_name)
+# introduction("Skywalker", "Luke")
+# introduction("Quick", "Jesse")
+# introduction("Kent", "Clark")
+
+# def introduction(first_name, last_name):
+#     print("Hello, my name is", first_name, last_name)
+# introduction(first_name = "James", last_name = "Bond")
+# introduction(last_name = "Skywalker", first_name = "Luke")
+
+# def adding(a, b, c):
+#     print(a, "+", b, "+", c, "=", a + b + c)
+# adding(1, 2, 3)
+# adding(c = 1, a = 2, b = 3)
+# adding(3, c = 1, b = 2)
+
+# def introduction(first_name, last_name="Smith"):
+#     print("Hello, my name is", first_name, last_name)
+# introduction("James", "Doe")
+# introduction("Henry")
+# introduction(first_name="William")
+
+# def happy_new_year(wishes=True):
+#     print("Three...")
+#     print("Two...")
+#     print("One...")
+#     if not wishes:
+#         return
+#     print("Happy New Year!")
+# happy_new_year()
+# happy_new_year(False)
+
+# def strange_function(n):
+#     if(n % 2 == 0):
+#         return True
+# print(strange_function(2))
+# print(strange_function(1))
+
+# def list_sum(lst):
+#     s = 0
+#     for elem in lst:
+#         s += elem
+#     return s
+# print(list_sum([5, 4, 3]))
+
+# def strange_list_fun(n):
+#     strange_list = []
+#     for i in range(0, n):
+#         strange_list.append(i)
+#     return strange_list
+# print(strange_list_fun(10))
+
+def is_year_leap(year):
+    leap_year = False
+    if year % 400 == 0:
+        if year % 4 == 0:
+            leap_year = True
+    return leap_year
+test_data = [1900, 2000, 2016, 1987]
+test_results = [False, True, True, False]
+for i in range(len(test_data)):
+	yr = test_data[i]
+	print(yr,"->",end="")
+	result = is_year_leap(yr)
+	if result == test_results[i]:
+		print("OK")
+	else:
+		print("Failed")
+
+4.3
+.1
+.6
+LAB: A
+leap
+year: writing
+your
+own
+functions
