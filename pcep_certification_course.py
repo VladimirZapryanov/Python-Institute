@@ -889,29 +889,94 @@ from time import sleep
 #     return strange_list
 # print(strange_list_fun(10))
 
-def is_year_leap(year):
-    leap_year = False
-    if year % 400 == 0:
-        if year % 4 == 0:
-            leap_year = True
-    return leap_year
-test_data = [1900, 2000, 2016, 1987]
-test_results = [False, True, True, False]
-for i in range(len(test_data)):
-	yr = test_data[i]
-	print(yr,"->",end="")
-	result = is_year_leap(yr)
-	if result == test_results[i]:
-		print("OK")
-	else:
-		print("Failed")
+# def is_year_leap(year):
+# 	leap_year = False
+# 	if year % 4 == 0:
+# 		if year % 100 == 0:
+# 			if year % 400 == 0:
+# 				leap_year = True
+# 		else:
+# 			leap_year = True
+# 	return leap_year
+# test_data = [1900, 2000, 2016, 1987]
+# test_results = [False, True, True, False]
+# for i in range(len(test_data)):
+# 	yr = test_data[i]
+# 	print(yr, "->", end="")
+# 	result = is_year_leap(yr)
+# 	if result == test_results[i]:
+# 		print("OK")
+# 	else:
+# 		print("Failed")
 
-4.3
-.1
-.6
-LAB: A
-leap
-year: writing
-your
-own
-functions
+# def is_year_leap(year):
+# 	leap_year = False
+# 	if year % 4 == 0:
+# 		if year % 100 == 0:
+# 			if year % 400 == 0:
+# 				leap_year = True
+# 		else:
+# 			leap_year = True
+# 	return leap_year
+# def days_in_month(year, month):
+# 	what_year = is_year_leap(year)
+# 	months_in_year = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+# 	if what_year == True:
+# 		months_in_year[1] += 1
+# 	return months_in_year[month -1]
+# test_years = [1900, 2000, 2016, 1987]
+# test_months = [2, 2, 1, 11]
+# test_results = [28, 29, 31, 30]
+# for i in range(len(test_years)):
+# 	yr = test_years[i]
+# 	mo = test_months[i]
+# 	print(yr, mo, "->", end="")
+# 	result = days_in_month(yr, mo)
+# 	if result == test_results[i]:
+# 		print("OK")
+# 	else:
+# 		print("Failed")
+
+# def is_prime(num):
+# 	prime_num = True
+# 	if num == 2 or num == 3:
+# 		prime_num = True
+# 	elif num % 2 == 0 or num % 3 == 0:
+# 		prime_num = False
+# 	return prime_num
+# for i in range(1, 20):
+# 	if is_prime(i + 1):
+# 			print(i + 1, end=" ")
+# print()
+
+# def liters_100km_to_miles_gallon(liters):
+# 	gallons = liters / 3.785411784
+# 	miles = 100 / 1.609344
+# 	result = miles / gallons
+# 	return result
+# def miles_gallon_to_liters_100km(miles):
+# 	liter = 3.785411784
+# 	km = miles * 1.609344
+# 	result = liter / km * 100
+# 	return result
+# print(liters_100km_to_miles_gallon(3.9))
+# print(liters_100km_to_miles_gallon(7.5))
+# print(liters_100km_to_miles_gallon(10.))
+# print(miles_gallon_to_liters_100km(60.3))
+# print(miles_gallon_to_liters_100km(31.4))
+# print(miles_gallon_to_liters_100km(23.5))
+
+# def my_function():
+#     print("Do I know that variable?", var)
+# var = 123
+# my_function()
+
+# def bmi(weight, height):
+# 	return weight / height ** 2
+# print(bmi(94, 185))
+
+# def is_a_triangle(a, b, c):
+#     return a + b > c and b + c > a and c + a > b
+# print(is_a_triangle(1, 1, 1))
+# print(is_a_triangle(1, 1, 3))
+
