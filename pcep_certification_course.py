@@ -980,3 +980,104 @@ from time import sleep
 # print(is_a_triangle(1, 1, 1))
 # print(is_a_triangle(1, 1, 3))
 
+# def is_a_triangle(a, b, c):
+#     return a + b > c and b + c > a and c + a > b
+#
+# a = float(input('Enter the first side\'s length: '))
+# b = float(input('Enter the second side\'s length: '))
+# c = float(input('Enter the third side\'s length: '))
+# if is_a_triangle(a, b, c):
+#     print('Yes, it can be a triangle.')
+# else:
+#     print('No, it can\'t be a triangle.')
+
+# def is_a_triangle(a, b, c):
+#     return a + b > c and b + c > a and c + a > b
+# def heron(a, b, c):
+#     p = (a + b + c) / 2
+#     return (p * (p - a) * (p - b) * (p - c)) ** 0.5
+# def area_of_triangle(a, b, c):
+#     if not is_a_triangle(a, b, c):
+#         return None
+#     return heron(a, b, c)
+# print(area_of_triangle(1., 1., 2. ** .5))
+
+# def factorial_function(n):
+#     if n < 0:
+#         return None
+#     if n < 2:
+#         return 1
+#     product = 1
+#     for i in range(2, n + 1):
+#         product *= i
+#     return product
+# for n in range(1, 6):  # testing
+#     print(n, factorial_function(n))
+
+# def fib(n):
+#     if n < 1:
+#         return None
+#     if n < 3:
+#         return 1
+#     elem_1 = elem_2 = 1
+#     the_sum = 0
+#     for i in range(3, n + 1):
+#         the_sum = elem_1 + elem_2
+#         elem_1, elem_2 = elem_2, the_sum
+#     return the_sum
+# for n in range(1, 10):  # testing
+#     print(n, "->", fib(n))
+
+# def fib(n):
+#     if n < 1:
+#         return None
+#     if n < 3:
+#         return 1
+#     return fib(n - 1) + fib(n - 2)
+# print(fib(9))
+
+# def factorial_function(n):
+#     if n < 0:
+#         return None
+#     if n < 2:
+#         return 1
+#     return n * factorial_function(n - 1)
+# print(factorial_function(9))
+
+# def fun(a):
+#     if a > 30:
+#         return 4
+#     else:
+#         return a + fun(a + 3)
+# print(fun(25))
+
+# tuple_1 = (1, 2, 4, 8)
+# tuple_2 = 1., .5, .25, .125
+# print(tuple_1)
+# print(tuple_2)
+
+# my_tuple = (1, 10, 100, 1000)
+# print(my_tuple[0])
+# print(my_tuple[-1])
+# print(my_tuple[1:])
+# print(my_tuple[:-2])
+# for elem in my_tuple:
+#     print(elem)
+
+# my_tuple = (1, 10, 100)
+# t1 = my_tuple + (1000, 10000)
+# t2 = my_tuple * 3
+# print(len(t2))
+# print(t1)
+# print(t2)
+# print(10 in my_tuple)
+# print(-10 not in my_tuple)
+
+# var = 123
+# t1 = (1, )
+# t2 = (2, )
+# t3 = (3, var)
+# t1, t2, t3 = t2, t3, t1
+# print(t1, t2, t3)
+
+4.6.1.4 Tuples and dictionaries
