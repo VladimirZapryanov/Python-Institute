@@ -1080,4 +1080,12 @@ from time import sleep
 # t1, t2, t3 = t2, t3, t1
 # print(t1, t2, t3)
 
-4.6.1.4 Tuples and dictionaries
+dictionary = {"cat": "chat",
+              "dog": "chien",
+              "horse": "cheval"}
+phone_numbers = {'boss': 5551234567,
+                 'Suzy': 22657854310}
+empty_dictionary = {}
+print(dictionary)
+print(phone_numbers)
+print(empty_dictionary)
