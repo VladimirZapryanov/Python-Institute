@@ -1080,12 +1080,153 @@ from time import sleep
 # t1, t2, t3 = t2, t3, t1
 # print(t1, t2, t3)
 
-dictionary = {"cat": "chat",
-              "dog": "chien",
-              "horse": "cheval"}
-phone_numbers = {'boss': 5551234567,
-                 'Suzy': 22657854310}
-empty_dictionary = {}
-print(dictionary)
-print(phone_numbers)
-print(empty_dictionary)
+# dictionary = {"cat": "chat",
+#               "dog": "chien",
+#               "horse": "cheval"}
+# phone_numbers = {'boss': 5551234567,
+#                  'Suzy': 22657854310}
+# empty_dictionary = {}
+# print(dictionary)
+# print(phone_numbers)
+# print(empty_dictionary)
+#
+# print(dictionary['cat'])
+# print(phone_numbers['Suzy'])
+#
+# words = ['cat', 'lion', 'horse']
+# for word in words:
+#     if word in dictionary:
+#         print(word, '->', dictionary[word])
+#     else:
+#         print(word, 'Is not in dictionary')
+
+# for key in dictionary.keys():
+#     print(key, '->', dictionary[key])
+#
+# for key in sorted(dictionary.keys()):
+#     print(key, '->', dictionary[key])
+
+# for english, french in dictionary.items():
+#     print(english, '->', french)
+
+# for french in dictionary.values():
+#     print(french)
+
+# dictionary['cat'] = 'minou'
+# print(dictionary)
+
+# dictionary['swan'] = 'cygne'
+# print(dictionary)
+
+# dictionary.update({'duck': 'canard'})
+# print(dictionary)
+
+# del dictionary['dog']
+# print(dictionary)
+
+# print(dictionary)
+# dictionary.popitem()
+# print(dictionary)
+
+# school_class = {}
+# while True:
+#     name = input("Enter the student's name: ")
+#     if name == '':
+#         break
+#     score = int(input("Enter the student's score (0-10): "))
+#     if score not in range(0, 11):
+#         break
+#     if name in school_class:
+#         school_class[name] += (score,)
+#     else:
+#         school_class[name] = (score,)
+# for name in sorted(school_class.keys()):
+#     adding = 0
+#     counter = 0
+#     for score in school_class[name]:
+#         adding += score
+#         counter += 1
+#     print(name, ":", adding / counter)
+
+# my_tuple = (1, 2, True, "a string", (3, 4), [5, 6], None)
+# print(my_tuple)
+# my_list = [1, 2, True, "a string", (3, 4), [5, 6], None]
+# print(my_list)
+# print(type(my_tuple))
+#
+# one_elem_tuple_1 = ("one", )    # Brackets and a comma.
+# one_elem_tuple_2 = "one",       # No brackets, just a comma.
+#
+# my_tuple_1 = 1,
+# print(type(my_tuple_1))    # outputs: <class 'tuple'>
+# my_tuple_2 = 1             # This is not a tuple.
+# print(type(my_tuple_2))    # outputs: <class 'int'>
+#
+# my_tuple = (1, 2.0, "string", [3, 4], (5, ), True)
+# print(my_tuple[3])    # outputs: [3, 4]
+#
+# my_tuple = 1, 2, 3,
+# del my_tuple
+# print(my_tuple)    # NameError: name 'my_tuple' is not defined
+
+# tuple_1 = (1, 2, 3)
+# for elem in tuple_1:
+#     print(elem)
+#
+# tuple_2 = (1, 2, 3, 4)
+# print(5 in tuple_2)
+# print(5 not in tuple_2)
+#
+# tuple_3 = (1, 2, 3, 5)
+# print(len(tuple_3))
+
+# tuple_4 = tuple_1 + tuple_2
+# tuple_5 = tuple_3 * 2
+#
+# print(tuple_4)
+# print(tuple_5)
+
+# my_tuple = tuple((1, 2, "string"))
+# print(my_tuple)
+
+# my_list = [2, 4, 6]
+# print(my_list)    # outputs: [2, 4, 6]
+# print(type(my_list))    # outputs: <class 'list'>
+# tup = tuple(my_list)
+# print(tup)    # outputs: (2, 4, 6)
+# print(type(tup))    # outputs: <class 'tuple'>
+
+# tup = 1, 2, 3,
+# my_list = list(tup)
+# print(type(my_list))    # outputs: <class 'list'>
+
+# pol_eng_dictionary = {
+#     "zamek": "castle",
+#     "woda": "water",
+#     "gleba": "soil"
+#     }
+# copy_dictionary = pol_eng_dictionary.copy()
+# print(copy_dictionary)
+
+# tup = 1, 2, 3, 2, 4, 5, 6, 2, 7, 2, 8, 9
+# duplicates = tup.count(2)
+# print(duplicates)
+
+# d1 = {'Adam Smith': 'A', 'Judy Paxton': 'B+'}
+# d2 = {'Mary Louis': 'A', 'Patrick White': 'C'}
+# d3 = {}
+# for item in (d1, d2):
+#     d3.update(item)
+# print(d3)
+
+# my_list = ["car", "Ford", "flower", "Tulip"]
+# t = tuple(my_list)
+# print(t)
+# print(type(t))
+
+# colors = (("green", "#008000"), ("blue", "#0000FF"))
+# colors_dictionary = dict(colors)
+# print(colors_dictionary)
+# print(type(colors_dictionary))
+
+4.7.1.3 Exceptions (try-except)
