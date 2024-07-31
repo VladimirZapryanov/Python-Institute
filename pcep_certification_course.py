@@ -1229,4 +1229,32 @@ from time import sleep
 # print(colors_dictionary)
 # print(type(colors_dictionary))
 
-4.7.1.3 Exceptions (try-except)
+# try:
+#     value = int(input('Enter a natural number: '))
+#     print('The reciprocal of', value, 'is', 1/value)
+# except:
+#     print('I do not know what to do.')
+
+# try:
+#     value = int(input('Enter a natural number: '))
+#     print('The reciprocal of', value, 'is', 1/value)
+# except ValueError:
+#     print('I do not know what to do.')
+# except ZeroDivisionError:
+#     print('Division by zero is not allowed in our Universe.')
+
+# try:
+#     value = int(input('Enter a natural number: '))
+#     print('The reciprocal of', value, 'is', 1/value)
+# except ValueError:
+#     print('I do not know what to do.')
+# except ZeroDivisionError:
+#     print('Division by zero is not allowed in our Universe.')
+# except:
+#     print('Something strange has happened here... Sorry!')
+
+def f(x):
+    if x == 0:
+        return 0
+    return x + f(x - 1)
+print(f(3))
