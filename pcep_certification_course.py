@@ -1253,8 +1253,99 @@ from time import sleep
 # except:
 #     print('Something strange has happened here... Sorry!')
 
-def f(x):
-    if x == 0:
-        return 0
-    return x + f(x - 1)
-print(f(3))
+# def f(x):
+#     if x == 0:
+#         return 0
+#     return x + f(x - 1)
+# print(f(3))
+
+# tup = (1, 2, 4, 8)
+# tup = tup[1:-1]
+# tup = tup[0]
+# print(tup)
+
+# my_list = [1, 2]
+# for v in range(2):
+#     my_list.insert(-1, my_list[v])
+# print(my_list)
+
+# def fun(x, y):
+#     if x == y:
+#         return x
+#     else:
+#         return fun(x, y - 1)
+# print(fun(0, 3))
+
+# dct = {'one': 'two',
+#        'three': 'one',
+#        'two': 'three'
+#        }
+# v = dct['three']
+# for k in range(len(dct)):
+#     v = dct[v]
+# print(v)
+
+# lst = [[x for x in range(3)] for y in range(3)]
+# for r in range(3):
+#     for c in range(3):
+#         if lst[r][c] % 2 != 0:
+#             print('#')
+
+# x = float(input())
+# y = float(input())
+# print(y ** (1/x))
+
+# x = 3
+# y = 2
+# x = x % y
+# x = x % y
+# y = y % x
+# print(y)
+
+# a = 1
+# b = 0
+# a = a ^ b
+# b = a ^ b
+# a = a ^ b
+# print(a, b)
+
+# my_list = [x * x for x in range(5)]
+# def fun(lst):
+#     x = lst[2]
+#     del lst[x]
+#     return lst
+# print(fun(my_list))
+
+# lst = [i for i in range(-1, -2)]
+# print(len(lst))
+
+# foo = (1, 2, 3)
+# print(foo.index(0))
+
+# x = 1
+# y = 2
+# x, y, z = x, x, y
+# z, y, z = x, y, z
+# print(x, y, z)
+
+# dd = {'1': '0', '0': '1'}
+# for x in dd.values():
+#     print(x, end='')
+
+# def fun_1(a):
+#     return None
+# def fun_2(a):
+#     return fun_1(a) * fun_1(a)
+# print(fun_2(2))
+
+# print(Hello, World!)
+
+# try:
+#     print(5/0)
+#     break
+# except:
+#     print('Sorry')
+# except (ValueError, ZeroDivisionError):
+#     print('Too bad...')
+
+# print('a', 'b', 'c', sep='sep')
