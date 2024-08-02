@@ -1349,3 +1349,83 @@ from time import sleep
 #     print('Too bad...')
 
 # print('a', 'b', 'c', sep='sep')
+
+# d1 = {'Age': 27, 'Name': 'Holding'}
+# d2 = {'Name': 'Holding', 'Age': 27}
+# print(d1 == d2)
+
+# inp = 1
+# if (inp < 3): print("Sandy")
+# else: print("Monika")
+#
+# name, phone, location = "Pihu Gupta", 9018273645, "Ranchi"
+# print(name, phone, location, sep="**")
+
+# p = '*'
+# def multiply():
+#   global p
+#   p *= 3
+#   print(3 * p)
+# multiply()
+# print(p)
+
+# l = [10,12,8,6,7, 9]
+# l.sort()
+# print(l)
+
+# initial = 1
+# while initial < 3:
+#    initial += 1
+#    print(initial)
+#    break
+# else:
+#    print("Break")
+
+# if not 1:
+#     print("Welcome")
+# else:
+#     print("exit")
+
+# lst1 = [1, 2, 4, 8]
+# list2 = [2, 8, 4, 1]
+# print(lst1 == list2)
+
+# def fact(n):
+#     if n == 1:
+#         return 1
+#     return fact(n - 1) * n
+# print(fact(4))
+
+# data = ""
+# while data:
+#    print("Data is not Empty")
+# else:
+#    print("Data is Empty")
+
+# def fun(df = 6, ndf):
+#    return df/ndf
+# print(fun(4))
+
+# def func(lst):
+#    lst = [1, 2, 3]
+#    return lst
+# lst = [4, 5, 6]
+# ret = func(lst)
+# print(lst, ret)
+
+# p = 10
+# q = 10
+# print(id(p))
+# print(id(q))
+# print(p is q)
+
+# list = [False, True, '2', 3, 4, 5]
+# b = 0 in list
+# print(b)
+
+# print(list('hello'))
+
+# a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(a[::2])
+
+
