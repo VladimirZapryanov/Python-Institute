@@ -107,20 +107,122 @@
 # print(a ** b)
 # print(2 ** 3)
 
-# Assignment operators
-a = 10
-print(a)
-a += 5
-print(a)
-a -= 5
-print(a)
-a *= 2
-print(a)
-a /= 2
-print(a)
-a %= 3
-print(a)
-a **= 2
-print(a)
-a //= 3
-print(a)
+# # Assignment operators
+# a = 10
+# print(a)
+# a += 5
+# print(a)
+# a -= 5
+# print(a)
+# a *= 2
+# print(a)
+# a /= 2
+# print(a)
+# a %= 3
+# print(a)
+# a **= 2
+# print(a)
+# a //= 3
+# print(a)
+
+# a = 5
+# # Left shift operator
+# print(a << 1)
+# print(a << 2)
+# # Right shift operator
+# print(a >> 1)
+# print(a >> 2)
+# # Bitwise compliment operator
+# print(~10)
+
+# # and
+# print(True and False)
+# print(False and True)
+# print(False and False)
+# print(True and True)
+# # or
+# print(True or False)
+# print(False or True)
+# print(False or False)
+# print(True or True)
+# # not
+# print(not False)
+# print(not True)
+
+# print(10 == 20)
+# print(10 == 10)
+# print(10 != 20)
+# print(10 != 10)
+# print(10 > 2)
+# print(10 > 100)
+# print(10 > 10)
+# print(10 < 2)
+# print(10 < 100)
+# print(10 < 10)
+# print(10 <= 10)
+# print(10 >= 10)
+
+# age = input("Enter your age: ")
+# print(age)
+# print(type(age))
+# age = int(input("Enter your age: "))
+# print(age)
+# print(type(age))
+# age = float(input("Enter your age: "))
+# print(age)
+# print(type(age))
+# a = 5
+# print(type(a))
+# b = str(a)
+# print(type(b))
+# print(len('Python'))
+
+# a = 10
+# b = 20
+# print('The value of a is {} and b is {}'.format(a, b))
+# print('I love {} and {}'.format('apples', 'oranges'))
+# print('I love {1} and {0}'.format('apples', 'oranges'))
+# print('I love {first} and {second}'.format(first='apples', second='oranges'))
+# x = 33.2314764
+# print("the value of x is %4.2f" % x)
+
+# x = 'Python'
+# print(x[0])
+# print(x[1])
+# print(x[2])
+# print(x[3])
+# print(x[4])
+# print(x[5])
+# print('------------------')
+# print(x[-6])
+# print(x[-5])
+# print(x[-4])
+# print(x[-3])
+# print(x[-2])
+# print(x[-1])
+# print(len(x))
+# i = 0
+# length = len(x)
+# while i < length:
+#     print((x[i]))
+#     i += 1
+
+# a = 'Python'
+# # sting_name[start_index: end_index: step]
+# print(a[1:4:1])
+# print(a[1:4:2])
+# print(a[1:4:])
+# print(a[1::])
+# print(a[:4:])
+# print(a[::2])
+
+# s1 = 'Python'
+# s2 = 'programming'
+# # Addition / concatenation (+)
+# a = s1 + s2
+# print(a)
+# # Multiplication / repetition (*)
+# b = s1 * 2
+# print(b)
+
+
