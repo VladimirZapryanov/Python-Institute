@@ -360,3 +360,250 @@
 # a = 1
 # while a < 10:
 #     pass
+#
+# a = []
+# print(a)
+# print(type(a))
+#
+# b = [1, 2, 3, 4, 5, 6]
+# print(b)
+# print(type(b))
+#
+# c = 'I love python programming'
+# c_list = c.split()
+# print(c_list)
+# print(type(c_list))
+#
+# d = list(range(10, 20, 2))
+# print(d)
+# print(type(d))
+#
+# print(b[0])
+# print(b[2])
+
+# e = list(range(1, 12))
+# print(e[0])
+# print(e[-1])
+#
+# print(e)
+# print(e[1:10])
+# print((e[1:10:2]))
+# print(e[1::2])
+# print(e[10:1:-2])
+
+# a = list(range(1, 12))
+# print(a)
+# a[1] = 100
+# print(a)
+#
+# a[1:4] = [33, 34, 35]
+# print(a)
+#
+# a.append(200)
+# a.append(300)
+# print(a)
+#
+# a.extend([2, 4, 10])
+# print(a)
+# b = [9, 99, 999]
+# a.extend(b)
+# print(a)
+#
+# a.insert(2, 1)
+# print(a)
+#
+# del a[1]
+# print(a)
+#
+# del a[1:3]
+# print(a)
+#
+# a.remove(5)
+# a.remove(9)
+# print(a)
+#
+# a.pop(1)
+# a.pop()
+# print(a)
+#
+# a.clear()
+# print(a)
+
+# a = list(range(1, 12))
+# a.append(1)
+# print(len(a))
+# print(a.count(1))
+# print(a.index(1))
+#
+# a.sort()
+# print(a)
+#
+# a.reverse()
+# print(a)
+
+# a = list(range(1, 12))
+# print(a)
+
+# i = 0
+# while i < len(a):
+#     print(a[i])
+#     i += 1
+
+# for x in a:
+#     print(x)
+
+# n = len(a)
+# for i in range(n):
+#     print(i, " : ", a[i])
+
+# a = [1, 2, 3]
+# b = [4, 5, 6]
+# c = a + b
+# print(c)
+#
+# d = a * 2
+# print(d)
+
+# a = [1, 2, 3]
+# b = [4, 5, 6]
+# c = [1, 2, 4]
+# d = [1, 2, 3]
+# print(a == b)
+# print(a == c)
+# print(a == d)
+#
+# x = ['Python', 'programming']
+# y = ['Python', 'PROGRAMMING']
+# print(x == y)
+
+# a = list(range(1, 12))
+# print(1 in a)
+# print(22 in a)
+# print(1 not in a)
+# print(22 not in a)
+
+# a = [1, 2, 3]
+# print(type(a))
+# print(a)
+#
+# b = (1, 2, 3)
+# print(type(b))
+# print(b)
+#
+# c = ()
+# print(type(c))
+# print(c)
+#
+# d = (1)
+# e = (1,)
+# print(type(d))
+# print(d)
+# print(type(e))
+# print(e)
+#
+# f = 1, 2, 3
+# print(type(f))
+# print(f)
+#
+# t = tuple(a)
+# print(type(t))
+# print(t)
+#
+# nt = (1, (2, 3))
+# print(type(nt))
+# print(nt)
+
+# a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+# print(a[1])
+# print(a[-1])
+#
+# print(a)
+# print(a[1:10:1])
+# print(a[1:10:2])
+
+# a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+# a = (1, 2, 3, [4, 5, 6, 7, 8], 9, 10, 11)
+# print(a)
+# a[3][0] = 10
+# print(a)
+
+# a = 10
+# b = 20
+# c = 30
+# d = 40
+# t = a, b, c, d
+# print(type(t))
+# print(t)
+#
+# w, x, y, z = t
+# print(w, x, y, z)
+
+# a = {}
+# print(type(a))
+# print(a)
+#
+# a = {
+#     1: 'Python',
+#     2: 'Java'
+# }
+# print(type(a))
+# print(a)
+#
+# a = dict()
+# print(type(a))
+# print(a)
+#
+# a = dict({
+#     1: 'Python',
+#     2: 'Java'
+# })
+# print(type(a))
+# print(a)
+#
+# print(a[1])
+# print(a.get(1))
+
+# print(a)
+# print(type(a))
+# a[1] = 'Web'
+# print(a)
+#
+# a[3] = 'DB'
+# print(a)
+
+# a = {
+#     1: 'Web',
+#     2: 'Java',
+#     3: 'Database',
+#     4: 'Ruby'
+# }
+# print(a)
+# print(type(a))
+#
+# a.pop(1)
+# print(a)
+#
+# a.popitem()
+# print(a)
+
+# del a[2]
+# print(a)
+#
+# a.clear()
+# print(a)
+#
+# del a
+# print(a)
+
+# a = {
+#     1: 'Web',
+#     2: 'Java',
+#     3: 'Database',
+#     4: 'Ruby'
+# }
+# print(a)
+#
+# print(1 in a)
+# print(1 not in a)
+# print(11 in a)
+# print(11 not in a)
