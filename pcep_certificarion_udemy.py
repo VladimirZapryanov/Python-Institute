@@ -607,3 +607,133 @@
 # print(1 not in a)
 # print(11 in a)
 # print(11 not in a)
+
+# a = {
+#     1: 'Web',
+#     2: 'Java',
+#     3: 'Database',
+#     4: 'Ruby'
+# }
+# print(a)
+#
+# for k, v in a.items():
+#     print(f'{k}:{v}')
+#
+# for k in a:
+#     print(f'{k} --> {a[k]}')
+
+# a = {
+#     1: 'Web',
+#     2: 'Java',
+#     3: 'Database',
+#     4: 'Ruby'
+# }
+# print(a)
+# print(len(a))
+#
+# print(a.get(1))
+# print(a.get(1, 1000))
+# print(a.get(11, 1000))
+# print(a.get(11))
+#
+# print(a.keys())
+# print(type(a.keys()))
+# print(list(a.keys()))
+# print(type(list(a.keys())))
+# for i in a.keys():
+#     print(i)
+#
+# print(a.values())
+# print(type(a.values()))
+# print(list(a.values()))
+# print(type(list(a.values())))
+# for i in a.values():
+#     print(i)
+#
+# print(a.items())
+# print(type(a.items()))
+# print(list(a.items()))
+# print(type(list(a.items())))
+# for k, v in a.items():
+#     print(f'{k} -> {v}')
+
+# s = {1, 2, 3, 4, 5}
+# print(s)
+# print(type(s))
+#
+# s = {1, 2, 2, 3, 4, 5}
+# print(s)
+#
+# s = {1, 2, 'Python', 3}
+# print(s)
+# print(type(s))
+#
+# l = [1, 2, 3, 4]
+# print(type(l))
+# s = set(l)
+# print(s)
+# print(type(s))
+
+# a = {1, 2, 3}
+# print(a, type(a))
+#
+# a.add(5)
+# print(a)
+#
+# a.update([11, 22, 33])
+# print(a)
+# a.update(a, range(10))
+# print(a)
+#
+# b = a.copy()
+# print(b, type(b))
+
+# a = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
+# print(a, type(a))
+#
+# print(a.pop())
+# print(a)
+#
+# a.remove(1)
+# print(a)
+#
+# a.discard(11)
+# print(a)
+# a.discard(11)
+#
+# a.clear()
+# print(a)
+
+# a = {1, 2, 3, 4, 5, 6}
+# b = {3, 4, 5, 6, 7, 8}
+#
+# c = a.union(b)
+# print(c)
+# d = a | b
+# print(d)
+#
+# c = a.intersection(b)
+# print(c)
+# d = a & b
+# print(d)
+#
+# c = a.difference(b)
+# print(c)
+# c = b.difference(a)
+# print(c)
+# d = a - b
+# print(d)
+# d = b - a
+# print(d)
+#
+# c = a.symmetric_difference(b)
+# print(c)
+# d = a ^ b
+# print(d)
+
+# a = {1, 2, 3}
+# print(1 in a)
+# print(5 in a)
+# print(1 not in a)
+# print(5 not in a)
+
