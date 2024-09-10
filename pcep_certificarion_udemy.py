@@ -737,3 +737,142 @@
 # print(1 not in a)
 # print(5 not in a)
 
+# a = 'I love \'Python\''
+# print(a)
+#
+# a = 'It\'s time to write great code'
+# print(a)
+#
+# a = 'I love \\ Python'
+# print(a)
+#
+# a = 'I love \n Python'
+# print(a)
+
+# a = 'I love Python'
+# print(a)
+# a = """I
+# love
+# Python"""
+# print(a)
+# a = 'I \nLove \nPython'
+# print(a)
+
+# print(len('Python'))
+#
+# a = 'I love Python'
+# print(a.index('o'))
+# print(a.index('o', 4))
+#
+# print(a.count('o'))
+# print(a.count('o', 4))
+# print(a.count('o', 4, 6))
+#
+# print(a.lower())
+# print(a.upper())
+#
+# print(a.split(' '))
+# print(a.split(' ', 1))
+
+# def print_hello():
+#     print('Hello Python!')
+#
+# print_hello()
+#
+# def print_hello(name):
+#     print('Hello', name)
+#
+# print_hello('JS')
+# print_hello('World')
+#
+# def print_something(greeting, name):
+#     print(greeting, name)
+#
+# print_something('Hi', 'John')
+# print_hello(input('Enter name:'))
+# print_something('Hi', input('Enter name:'))
+
+# def user_info(name, age):
+#     print(f'Hello {name} Your age is: {age}')
+# user_info('Vlad', 33)
+# user_info(age=33, name='Vlad')
+# def user_info_default(name, age=24):
+#     print(f'Hello {name} Your age is: {age}')
+# user_info_default('Tom')
+# user_info_default('Tom', 44)
+#
+# def greet(*name):
+#     for s in name:
+#         print(f'Hello {s}!')
+#
+# greet('Tom', 'Lita', 'Roma')
+
+# def factorial(a):
+#     if a ==0:
+#         return 1
+#     else:
+#         fact = a * factorial(a - 1)
+#         return fact
+# print(factorial(20))
+#
+# def fact(number):
+#     num = 1
+#     while number != 0:
+#         num *= number
+#         number -= 1
+#     return num
+# print(fact(20))
+
+# def addition(a, b):
+#     temp = a + b
+#     return temp
+#
+# def demo(a, b):
+#     temp1 = a + b
+#     temp2 = a - b
+#     return temp1, temp2
+#
+# add = addition(3 , 4)
+# print(add)
+# print(demo(5, 3))
+# x, y = demo(5, 3)
+# print(x, y)
+
+# l = [1, 2, 3]
+# print(l.__iter__())
+# i = l.__iter__()
+# # print(i.__next__())
+# # print(i.__next__())
+# # print(i.__next__())
+#
+# print(next(i))
+# print(next(i))
+# print(next(i))
+#
+# s = 'Hello Python'
+# print(s.__iter__())
+# print(iter(s))
+# a = iter(s)
+# print(a.__next__())
+# print(a.__next__())
+# print(a.__next__())
+# print(next(a))
+# print(next(a))
+
+# class Counter:
+#     def __init__(self, start, end):
+#         self.current = start - 1
+#         self.end = end
+#
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         self.current += 1
+#         if self.current < self.end:
+#             return self.current
+#         else:
+#             raise StopIteration
+#
+# for c in Counter(3, 9):
+#     print(c)
+
