@@ -876,3 +876,56 @@
 # for c in Counter(3, 9):
 #     print(c)
 
+# def generator_demo():
+#     i = 1
+#     print('First')
+#     yield i
+#
+#     i = i + 1
+#     print('Second')
+#     yield i
+#
+#     i = i + 1
+#     print('Third')
+#     yield i
+#
+# gen = generator_demo()
+# # print(gen.__next__())
+# # print(gen.__next__())
+# # print(gen.__next__())
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+#
+# for i in generator_demo():
+#     print(i)
+
+# a = 100
+# def outer():
+#     a = 10
+#     print('Outer', a, id(a))
+#
+# def inner():
+#     b = 20
+#     print('Inner', b, id(b))
+#
+# print(a, id(a))
+# outer()
+# inner()
+
+# def demo():
+#     print('From function:', a)
+#
+# a = 100
+# print('From outside function', a)
+# demo()
+
+# def outer():
+#     global a
+#     a = 10
+#     print('Outher:', a, id(a))
+#
+# a = 100
+# outer()
+# print('Main:', a, id(a))
+
