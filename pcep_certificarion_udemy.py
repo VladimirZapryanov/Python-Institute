@@ -929,3 +929,25 @@
 # outer()
 # print('Main:', a, id(a))
 
+# x = 100
+# a = True
+# b = False
+# if x == 1 & (a & b):
+#     print(x)
+#     print(x * 2)
+
+# x = 100
+# a = True
+# b = False
+# a = x == 1 & (a & b)
+# print(x)
+
+# x = 100
+# a = True
+# b = False
+# if x == 1 & (a & b):
+#     print(x)
+# print(x * 2)
+
+# a = 'I Love Python Programming'
+# print(a.count('o', 2))
