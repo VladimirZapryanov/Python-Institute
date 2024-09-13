@@ -951,3 +951,103 @@
 
 # a = 'I Love Python Programming'
 # print(a.count('o', 2))
+
+# i = 2
+# if i > 0:
+#     print("#")
+#     if i < 4:
+#         print("#")
+#     elif i < 3:
+#         print('#')
+#     elif i == 2:
+#         print("#")
+#     else:
+#         print("#")
+#
+# else:
+#     print("#")
+
+# print(1 // 2)
+# print(13. // -4)
+# print(12. % -4)
+
+# list = [[2 - i for i in range(2)] for j in range(2)]
+# var = 0
+# for i in range(2):
+#     var += list[i][i]
+# print(var)
+
+# str = 'ThankS'
+# str[5] = 's'
+# print(str)
+
+# var = 25.6
+# var = int(var)
+# print(var)
+
+# print(9.5 // 3)
+
+# fruit = "Mango",
+# print(type(fruit))
+
+# list = [1, 2, 3, 4, 5]
+# print(list[list[-1]])
+
+# def add(p, q, r, s=5):
+#    return p + q + r + s
+# print(add(p = 1, q = 2, r = 3))
+
+# for num in range(2, 11, 3):
+#    print(num, end = ",")
+
+# print(23%4)
+
+# print(type(3/2))
+# print(type(3//2))
+
+# age = 15
+# print(not age > 14 and age < 16)
+
+# d1 = dict({1: 'ONE', 2: 'TWO', 3: 'THREE'})
+# print(d1)
+
+# full_name = "jack-skate walker"
+# print(full_name.title())
+
+# t = tuple('Hello World')
+# print(t[:-6])
+
+# x = "None"
+# if x:
+#    print("Good morning")
+# else:
+#    print("Good Evening")
+
+# def swap(num1, num2):
+#    temp = num1;
+#    num1 = num2;
+#    num2 = temp;
+# num1 = (2)
+# num2 = (5)
+# swap(num1, num2)
+# print(num1 , num2)
+
+# def f(i):
+#     if i > 2:
+#         return i
+#     else:
+#         return f(0) * f(3)
+# print(f(2))
+
+# tupl1 = (1, 2, 3)
+# tupl2 = ("Apples", "Bananas")
+# tupl3 = (tupl1 + tupl2)
+# print(tupl3)
+# tupl4 = tupl1 + tupl2
+# print(tupl4)
+
+# print(end='',sep='@@')
+
+# print(5** 2 ** 0 ** 1)
+
+
