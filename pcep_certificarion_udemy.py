@@ -1050,4 +1050,61 @@
 
 # print(5** 2 ** 0 ** 1)
 
+# d = {'r': 2, 'p': 4, 'q': 5}
+# print(sorted(d))
+#
+# a= [1,2,3,4,5]
+# print(a.index(3))
 
+# def swap(a, b):
+#     a, b = b, a
+#     return (a, b)
+#
+#
+# a = "Python2"
+# b = "Python3"
+# a, b = swap(a, b)
+# print(a, b)
+
+# x = ['welcome', 'to' ,'Python']
+# y = ['welcome', 'to' ,'Python']
+# x.pop(1)
+# print(x)
+# y.pop()
+# print(y)
+
+# x = 10.5
+# y = "ONE"
+# print(int(x))
+# print(int(y))
+
+# a = 1
+# b = 1
+# print(a^b)
+
+# x = {'r':2,'p':4,'q':5, 's':3}
+# x.pop('s')
+# print(x)
+# x.pop(3)
+# print(x)
+
+# tupl = (1, 2,3,4,5)
+# print(tupl[-3])
+
+# print = "Hi"
+# print (print)
+
+# print(4 ** 2)
+# print(4 ** 2.)
+# print(4. ** 2)
+# print(4.0 ** 2.0)
+
+# def swap(a, b):
+#     a, b = b, a
+#     return (a, b)
+#
+#
+# a = "Python2"
+# b = "Python3"
+# a, b = swap(a, b)
+# print(a, b)
