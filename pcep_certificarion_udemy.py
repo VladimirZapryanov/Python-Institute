@@ -1108,3 +1108,65 @@
 # b = "Python3"
 # a, b = swap(a, b)
 # print(a, b)
+
+# french_greeting = 'Bonjour'
+# for i in french_greeting:
+#     if i == 'o':
+#         pass
+#     print(i)
+# else:
+#     print('Madam')
+
+# a = 0
+# while (a < 5): a += 2
+# print(a)
+
+# val = ("hi","hello","bye")
+# val.pop()
+
+# print(12/3)
+
+# x = (("Python", 2, (5,6,7)), ("Java", 3, (7,8,9)),("Perl", 4, (2,3,4)))
+# print(x[1][2])
+
+# print(not 'Male')
+# print(not None)
+# print(None)
+
+# dict1 = {12:35,13:26,49:24,55:46,90:20}
+# dict2 = {56:68,35:15,25:28,32:39,65:40}
+# output = dict1 > dict2
+# print(output)
+
+# dict1 = {'Name': 'Samuel'}
+# dict2 = {'Age': 20}
+# dict3 = dict1 + dict2
+# print(dict3)
+
+# for ch in 'apple':
+#    if ch != 'p' and ch != 'e':
+#         continue
+#    print(ch,end="")
+
+# d = {"x":"xx","xx":"None"}
+# key = "x"
+# key = d[key]
+# key = d[key]
+# print(key)
+
+# def materials(x):
+#     x[-2] = "Chair"
+# household = ["fridge", "shoe rack", "Study Table"]
+# materials(household)
+# print(household)
+
+# list = ['p', 'q', 'r']
+#
+# def func(char):
+#     char.pop()
+#     char.append('s')
+#     print(char)
+#
+#
+# func(list)
+# print(list)
