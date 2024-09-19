@@ -1170,3 +1170,96 @@
 #
 # func(list)
 # print(list)
+
+# def func():
+#     global a
+#     print(a)
+#     a = 'College'
+#     print(a)
+#
+#
+# a = 'School'
+# func()
+# print(a)
+
+# mixed_list = [65,"A",66,"B",67,"C"]
+# mixed_list.sort()
+# print(mixed_list)
+
+# for num in range(8,6,-1):
+#    print(("*"))
+
+# def outer():
+#    lst = [1,2,3,4,5,6]
+#    def inner():
+#        lst[-1] = 0
+#        print(lst)
+#    inner()
+#    print(lst)
+# outer()
+
+# ch = 'circus'
+# if 'ir' in ch: print(ch)
+
+# List = ['p','q']
+# List.append('r')
+# List.append([10,20,30])
+# List.extend([200,500])
+# print(List)
+
+# input = 3
+# if ( input == 1 ):
+#    print("1")
+# elif ( input == 2 ):
+#    print("2")
+# print("3")
+
+
+# l1 = ['A','a','B','b']
+# l1.sort()
+# print(l1)
+
+# print("Python is a",print("High level"),print("OOP"),print("NOT ML"))
+
+# w = [1, 1]
+# x = w
+# y = w.copy()
+# z = list(w)
+# w[0], w[1] = 2, 3
+#
+# print(" w : ", w)
+# print(" x : ", x)
+# print(" y : ", y)
+# print(" z : ", z)
+
+# x = 123
+#
+#
+# def sum_of_digits(y):
+#     sum = 0
+#     while (y != 0):
+#         sum = sum + int(y % 10)
+#         y = int(y / 10)
+#     print(sum)
+#
+#
+# sum_of_digits(x)
+
+# k = 1
+# for i in range(1,2):
+#     for j in range(-1,2):
+#         if i ==j:
+#             k +=1
+#         else:
+#             break
+# print(k)
+
+# a = 1, 2, 3,
+# b = 'a', 'b', 'c'
+# print(a + b)
+# print(type(a))
+# print(type(b))
+#
+# t = ()
+# print(type(t))
+
