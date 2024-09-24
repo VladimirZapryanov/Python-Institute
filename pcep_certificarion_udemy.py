@@ -1263,3 +1263,42 @@
 # t = ()
 # print(type(t))
 
+# List1 = [1, 2, 3, 4, 5]
+# print(3 in List1[2:7]))
+# print(List1.index(List1[-1]) == 4)
+# print(List1.index(List1[-1]) == 0)
+# print(len(List1[0:1]) == 0)
+
+# def check_even_odd(number):
+#     if number % 2 == 0:
+#         return "Even"
+#     else:
+#         return "Odd"
+# print(check_even_odd(7))
+
+# n = 5
+# sum_of_numbers = (n * (n + 1)) // 2
+# print("Sum of first", n, "natural numbers is:", sum_of_numbers)
+
+# dict = {"Dalserver":12,"Ausserver":14,"Londonserver":16}
+# for i in dict.items():
+#     print(i[0], end="")
+
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         return 1
+#     else:
+#         return n * factorial(n - 1)
+#
+# result = factorial(5)
+# print("Factorial is", result)
+
+# num = 3//2 * 3
+# if num > 3:
+#     print("Hello World")
+# else:
+#     print("Something Different")
+
+# numbers = [1, 2, 3, 4, 5]
+# new_numbers = [x**2 for x in numbers if x % 2 == 0]
+# print(new_numbers)
