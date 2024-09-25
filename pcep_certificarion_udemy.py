@@ -1302,3 +1302,19 @@
 # numbers = [1, 2, 3, 4, 5]
 # new_numbers = [x**2 for x in numbers if x % 2 == 0]
 # print(new_numbers)
+
+
+students = [
+    {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'Zapryanov'},
+    {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'CZapryanov'},
+    {'grade': 3, 'first_name': 'Ivan', 'last_name': 'Georgiev'},
+    {'grade': 2, 'first_name': 'Georgi', 'last_name': 'Ivanov'},
+    {'grade': 5, 'first_name': 'Mario', 'last_name': 'Dimitrov'},
+    {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'EZapryanov'},
+    {'grade': 6, 'first_name': 'AVladimir', 'last_name': 'EZapryanov'},
+    {'grade': 5, 'first_name': 'Maria', 'last_name': 'Ivanova'}
+]
+
+sorted_students = sorted(students, key=lambda x: (-x['grade'], -ord(x['last_name'][0]), x['first_name']))
+for student in sorted_students:
+    print(student)
