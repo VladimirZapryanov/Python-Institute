@@ -1304,17 +1304,62 @@
 # print(new_numbers)
 
 
-students = [
-    {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'Zapryanov'},
-    {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'CZapryanov'},
-    {'grade': 3, 'first_name': 'Ivan', 'last_name': 'Georgiev'},
-    {'grade': 2, 'first_name': 'Georgi', 'last_name': 'Ivanov'},
-    {'grade': 5, 'first_name': 'Mario', 'last_name': 'Dimitrov'},
-    {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'EZapryanov'},
-    {'grade': 6, 'first_name': 'AVladimir', 'last_name': 'EZapryanov'},
-    {'grade': 5, 'first_name': 'Maria', 'last_name': 'Ivanova'}
-]
+# students = [
+#     {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'Zapryanov'},
+#     {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'CZapryanov'},
+#     {'grade': 3, 'first_name': 'Ivan', 'last_name': 'Georgiev'},
+#     {'grade': 2, 'first_name': 'Georgi', 'last_name': 'Ivanov'},
+#     {'grade': 5, 'first_name': 'Mario', 'last_name': 'Dimitrov'},
+#     {'grade': 6, 'first_name': 'Vladimir', 'last_name': 'EZapryanov'},
+#     {'grade': 6, 'first_name': 'AVladimir', 'last_name': 'EZapryanov'},
+#     {'grade': 5, 'first_name': 'Maria', 'last_name': 'Ivanova'}
+# ]
+#
+# sorted_students = sorted(students, key=lambda x: (-x['grade'], -ord(x['last_name'][0]), x['first_name']))
+# for student in sorted_students:
+#     print(student)
 
-sorted_students = sorted(students, key=lambda x: (-x['grade'], -ord(x['last_name'][0]), x['first_name']))
-for student in sorted_students:
-    print(student)
+# L = [1, 2, 3, 4, 5]
+# L*2
+# print(L)
+
+# L = [1, 2, 3, 4, 5]
+# L1 = L
+# L.append(7)
+# del L
+# print(L1)
+
+# try:
+#     1/0
+# except ArithmeticError:
+#     print("It is wrong")
+# except ZeroDivisionError:
+#     print("Any number cannot be divided by zero")
+
+# my_tuple = (1, 2, 3, 4)
+# print(len(my_tuple))
+
+# x = 15
+# y = 10
+# z = 5
+# if x > y:
+#     if y > z:
+#         result = "A"
+#     else:
+#         result = "B"
+# else:
+#     result = "C"
+# print(result)
+
+# values = []
+# for i in range(1, 4):
+#     values.append(i)
+#     print(values)
+
+# for x in range(4):
+#     if x == 3:
+#            break
+#     print(x)
+#
+# else:
+#     print("Done")
