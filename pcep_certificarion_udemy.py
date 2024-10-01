@@ -1420,3 +1420,62 @@
 # train_speed = {'FlyingScotsman': 201, 'TGV': 320, 'Shinkansen': 320}
 # for train in train_speed.items():
 #     print(train[0], end='')
+
+# list = [False, True, '2', 3, 4, 5]
+# b = 0 in list
+# print(b)
+
+# x = [0, 1, 2]
+# x.insert(0, 1)
+# del x[1]
+# print(sum(x))
+
+# print(list('hello'))
+
+# str1 = 'Vlad'
+# str2 = str1[:]
+# print(id(str1), id(str2))
+
+# data = ((1, 2),) * 7
+# print(data)
+# print(len(data[3:8]))
+
+# l = [1, 2, 3, 4, 5]
+# l.reverse()
+# print(l)
+
+# data = {'a': 1,
+#         'b': 2,
+#         'c': 3}
+# print(data['a', 'b'])
+
+# l = []
+# for i in range(-1, -2):
+#     a = i
+#     l.append(a)
+# print(l)
+
+# nums = [1, 2, 3]
+# data = ('1',) * (len(nums) - nums[::-1][0])
+# print(type(data))
+# print(nums[::-1])
+# print(('1',) * 2)
+
+# l = [2, 7, 1, 4]
+# # l.sort()
+# sorted(l)
+# print(sorted(l))
+
+# data = ['abc', 'def', 'abcde', 'efg']
+# print(max(data))
+
+# list = ['Peter', 'Paul', 'Mary']
+# def l(data):
+#     del data[1]
+#     data[1] = 'Jane'
+#     return data
+# print(l(list))
+
+# data = {'1': '0', '0': '1'}
+# for d in data.values():
+#     print(d, end=' ')
