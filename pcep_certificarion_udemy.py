@@ -1363,3 +1363,60 @@
 #
 # else:
 #     print("Done")
+
+# a = 1
+# for i in range(2, 5):
+#     if 2 * i > 4:
+#         a += 1
+# else:
+#     a -= 1
+# print(a)
+
+# a = -1
+# for i in range(1, 3):
+#     for j in range(1, 2):
+#         if i == j:
+#             a += 1
+#     else:
+#         a += 1
+# print(a)
+
+# the_data = ['data', -1, 2.718281828459]
+# print('data' in the_data)
+# print(the_data.index(-1) > 0)
+# print(int(the_data[2]))
+
+# a = tuple()
+# b = (2,)
+# print(type(a), type(b))
+# c = a + b
+# print(c , type(c))
+
+# n = [4, 3, 2, 1]
+# # print(n[n[0]])
+# print(n[n[3]])
+# # print(n[4])
+# print(n[3:5])
+
+# power = 1
+# while power < 5:
+#     power += 1
+#     print('@', end='')
+#     if power == 3:
+#         break
+# else:
+#     print('@')
+
+# def process(data):
+#     data = [1, 2, 3]
+#     return data
+# measurements = [0 for i in range(3)]
+# process(measurements)
+# print(measurements[-2])
+
+# n = 1_999
+# print(type(n))
+
+# train_speed = {'FlyingScotsman': 201, 'TGV': 320, 'Shinkansen': 320}
+# for train in train_speed.items():
+#     print(train[0], end='')
