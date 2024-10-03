@@ -1479,3 +1479,62 @@
 # data = {'1': '0', '0': '1'}
 # for d in data.values():
 #     print(d, end=' ')
+
+# data = [
+#     [1, 2, 3, 4],
+#     [5, 6, 7, 8],
+#     [9, 10, 11, 12],
+#     [13, 14 , 15, 16]
+# ]
+# for i in range(0, 4):
+#     print(data[i].pop(), end='')
+
+# x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+# x[::2] = 10, 20, 30, 40, 50, 60
+# print(x)
+
+# box = {}
+# jars = {}
+# crates = {}
+# box['biscuit'] = 1
+# box['cake'] = 3
+# jars['jam'] = 4
+# crates['box'] = box
+# crates['jars'] = jars
+# print(crates)
+# print(jars)
+# print(box)
+# print(len(crates['box']))
+
+# data = [1, 5, 10, 19, 55, 30, 55, 99]
+# data.pop(5)
+# data.remove(19)
+# data.remove(55)
+# data.remove(55)
+# print(data)
+
+# l1 = [1, 2, 3]
+# for v in range(len(l1)):
+#     l1.insert(1, l1[v])
+# print(l1)
+
+# t = (('A', 1), ('B', 2), ('C', 3))
+# d = dict(t)
+# print(d)
+
+# data = {}
+# data[1] = 1
+# data['1'] = 2
+# data[1.0] = 4
+# res = 0
+# for d in data:
+#     num = data[d]
+#     res += num
+# print(res)
+# print(data[1])
+
+# z = 3
+# y = 7
+# x = y < z and z > y or y > z and z < y
+# print(x)
+
